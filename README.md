@@ -1,6 +1,6 @@
 # auditor
 
-Consumidor-auditor da spec 004 (H6): confere que **cada transação aceita tem exatamente uma decisão** em `fraud-decisions.v1` e que **nenhum alerta saiu em duplicidade** em `fraud-alerts.v1`. Lê os dois tópicos com `read_committed` (as saídas do motor são transacionais).
+Consumidor-auditor: confere que **cada transação aceita tem exatamente uma decisão** em `fraud-decisions.v1` e que **nenhum alerta saiu em duplicidade** em `fraud-alerts.v1`. Lê os dois tópicos com `read_committed` (as saídas do motor são transacionais).
 
 ```bash
 ./mvnw package
