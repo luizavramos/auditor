@@ -13,7 +13,7 @@
 
     <artifactId>auditor</artifactId>
     <name>auditor</name>
-    <description>Consumidor-auditor: confere que cada transação aceita tem exatamente uma decisão e que nenhum alerta saiu em duplicidade (spec 004, H6).</description>
+    <description>Consumidor-auditor: confere que cada transação aceita tem exatamente uma decisão e que nenhum alerta saiu em duplicidade.</description>
 
     <dependencies>
         <dependency>
